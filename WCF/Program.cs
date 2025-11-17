@@ -43,7 +43,7 @@ namespace WcfServer
                 host.AddServiceEndpoint(typeof(IHelloService), new BasicHttpBinding(), "");
 
                 host.Open(); // Open the host to start listening for incoming messages.
-                Console.WriteLine("WCF Service is running...");
+                Console.WriteLine("WCF Service is running and listening...");
                 Console.ReadKey();
             }
 

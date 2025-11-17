@@ -4,7 +4,7 @@
     { 
         public string SayHello(string name)
         {
-            return $"\nHello {name} from the WCF server!";
+            return $"Hello {name} from the WCF server!";
         }
     }
 }
